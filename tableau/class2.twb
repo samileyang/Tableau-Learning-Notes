@@ -134,7 +134,7 @@
       <column caption='Order Date' datatype='date' name='[OrderDate]' role='dimension' type='ordinal' />
       <column datatype='string' name='[Rep]' role='dimension' type='nominal' />
       <column-instance column='[Rep]' derivation='None' name='[none:Rep:nk]' pivot='key' type='nominal' />
-      <layout dim-ordering='alphabetic' dim-percentage='0.521073' measure-ordering='alphabetic' measure-percentage='0.478927' show-structure='true' />
+      <layout dim-ordering='alphabetic' dim-percentage='0.501916' measure-ordering='alphabetic' measure-percentage='0.498084' show-structure='true' />
       <style>
         <style-rule element='mark'>
           <encoding attr='color' field='[none:Rep:nk]' palette='color_blind_10_0' type='palette'>
@@ -180,7 +180,14 @@
     </datasource>
   </datasources>
   <worksheets>
-    <worksheet name='Sheet 1'>
+    <worksheet name='Annual Bonus Analysis'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
           <datasources>
@@ -269,7 +276,7 @@
     </worksheet>
   </worksheets>
   <windows source-height='30'>
-    <window class='worksheet' maximized='true' name='Sheet 1'>
+    <window class='worksheet' maximized='true' name='Annual Bonus Analysis'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -304,7 +311,7 @@
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Sheet 1' width='192'>
+    <thumbnail height='192' name='Annual Bonus Analysis' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAAbfklEQVR4nO3deXBb9d3v8fc5kqzFkizH8hLLSxI7cRJnj8lCwvI09OG25E6G5QHyB/eP
       trQdLqX/3DtMKXM7tNNnhqGl7TBTWihlGCbtpLdt6JStzw2QkjgkYCchC46XeLds2fKuXWe5
